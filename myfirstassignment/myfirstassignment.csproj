@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A348B49D-0FDF-42F2-ACFA-E1F352F9C460}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>myfirstassignment</RootNamespace>
+    <AssemblyName>myfirstassignment</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="animation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="animation.Designer.cs">
+      <DependentUpon>animation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calculator.Designer.cs">
+      <DependentUpon>calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="calcynew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calcynew.Designer.cs">
+      <DependentUpon>calcynew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="notpad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notpad.Designer.cs">
+      <DependentUpon>notpad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picturebox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picturebox.Designer.cs">
+      <DependentUpon>picturebox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="stopwatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stopwatch.Designer.cs">
+      <DependentUpon>stopwatch.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="animation.resx">
+      <DependentUpon>animation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="calculator.resx">
+      <DependentUpon>calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="calcynew.resx">
+      <DependentUpon>calcynew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notpad.resx">
+      <DependentUpon>notpad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picturebox.resx">
+      <DependentUpon>picturebox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="stopwatch.resx">
+      <DependentUpon>stopwatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\gygy.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluestarNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bnnernew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bnr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancle12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doc1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grn5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grn9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grn11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Img_AdvDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Img_Cancle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Img_logot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Img_report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Img_result.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_setting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new10kaDum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printerImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printgrn %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\que.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yel7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yel11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10TKN %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20TKN %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50TKN %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100TKN %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500TKN %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000TKN %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccountImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backimg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluestar-transformed.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
